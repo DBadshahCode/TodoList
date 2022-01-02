@@ -1,5 +1,5 @@
 <app-navbar></app-navbar>
-<app-customcard title="Login Form" info="your details are secure here">
+<app-customcard title="Login Form" info="your details are secured here.">
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="mb-3">
       <label for="email" class="form-label">Email </label>
@@ -10,7 +10,7 @@
       <input type="password" id="password" name="password" class="form-control" formControlName="password">
     </div>
     <div class="mb-3">
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-warning">Submit</button>
     </div>
   </form>
 </app-customcard>
