@@ -10,7 +10,8 @@ import { LoginComponent } from './Components/login/login.component';
 import { SignupComponent } from './Components/signup/signup.component';
 import { CustomcardComponent } from './Components/customcard/customcard.component';
 import { AddtaskComponent } from './Components/addtask/addtask.component';
-import { ReactiveFormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './Components/contact/contact.component'
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms'
     LoginComponent,
     SignupComponent,
     CustomcardComponent,
-    AddtaskComponent
+    AddtaskComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
