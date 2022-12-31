@@ -15,5 +15,8 @@ export class LoginComponent {
 
   onSubmit() {
     console.log(this.loginForm.value);
+    if(this.loginForm.get('email')?.value === 'support@admin.com' && this.loginForm.get('password')?.value === '123') {
+      alert('login successful');
+    }
   }
 }
